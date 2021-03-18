@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Single Products ||Online Shopping website </title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="../img/logo.png" alt="logo" width="125px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="../img/cart.png" width="30px" height="30px">
+            <img src="../img/menu.png" class="manu-icon" onclick="menutoggel()">
+        </div>
+    </div>
+
+    <!-- --------------card-products----------------- -->
+    <div class="samll-container card-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Sub-total</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="card-info">
+                        <img src="../img/buy-1.jpg" alt="">
+                        <div class="p-name">
+                            <p>Red Printed T-Shrit</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+
+
+            <td>
+                <div class="card-info">
+                    <img src="../img/buy-2.jpg" alt="">
+                    <div class="p-name">
+                        <p>Shoes</p>
+                        <small>Price: $60.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$60.00</td>
+            </tr>
+
+
+            <td>
+                <div class="card-info">
+                    <img src="../img/buy-3.jpg" alt="">
+                    <div class="p-name">
+                        <p>Gray Pant</p>
+                        <small>Price: $55.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$55.00</td>
+            </tr>
+
+
+
+        </table>
+
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Sub-Total</td>
+                    <td>$200.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$35.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$200.00</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="../img/play-store.png" alt="">
+                        <img src="../img/app-store.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="../img/logo-white.png">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus consecteturqwrwerwer
+                        Accusamus</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <hr>
+        <p class="copy-right">&copy;Copyright 2021 - vasim shaikh </p>
+    </div>
+
+
+
+
+    <!-- ----------------------js for toggle menu------------------------- -->
+
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px"
+        function menutoggel() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px";
+
+            }
+            else {
+                menuitems.style.maxHeight = "0px";
+
+            }
+        }
+
+    </script>
+
+
+
+
+    </script>
+
+</body>
+
+</html>
