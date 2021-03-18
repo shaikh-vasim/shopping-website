@@ -367,6 +367,133 @@ select:focus{
     color:white;
 }
 
+
+
+    /* <!-- --------------single-products----------------- --> */
+
+
+.single-products{
+    margin-top: 80px;
+}
+
+.single-products .col-2 img{
+    padding: 0;
+
+}
+.single-products .col-2{
+    padding: 20px;
+}
+
+.single-products .col-2 h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-products select{
+    display: block;
+    padding:10px;
+    margin-top: 20px;
+
+}
+.single-products input{
+    width:50px;
+    height: 40px;
+    padding-left:10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+
+
+}
+input{
+    outline: none;
+}
+.single-products .fa{
+    margin-left: 10px;
+    color:#ff523b;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+    /* #h3 {
+    font-size: 21px;
+    margin-left: 290px;
+ }
+       #h3p {
+        font-size: 18px;
+    margin: 2px 39px;
+       } */
+
+
+    /* <!-- --------------card-products----------------- --> */
+
+
+    .card-page{
+        margin:80px auto;
+    }
+
+    table{
+        width:100%;
+        border-collapse: collapse;
+    }
+
+.card-info{
+    display: flex;
+    flex-wrap: warp;
+
+}
+th{
+    text-align: left;
+    padding:5px;
+    color:white;
+    background: #ff523b;
+    font-weight: normal;
+
+}
+
+td{
+    padding: 10px 5px;
+}
+td input{
+    width:40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a{
+        color: #ff523b;
+        font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
 /* ------------------ media query for menu-------------------------- - */
 
 @media only screen and (max-width:800px){
@@ -458,16 +585,65 @@ nav ul li  a {
 
         } 
         
-        #h2{
-    font-size: 25px;
-    flex: none;
-    margin: 23px 0px;
-}
+    #h2{
+        font-size: 25px;
+        flex: none;
+        margin: 23px 0px;
+        }
+
+    .single-products .img{
+        text-align: center;
+        /* margin-left: -65px; */
+    }
+
+    .single-products .col-2{
+        text-align: 20px 0;
+    }
+
+
+        .h1{
+        font-size: 25px;
+        flex: none;
+        margin: 23px 0px;
+        text-align: left;
+        }
+
+       .samll-container .row .col-2 .pt{
+
+           text-align: left;
+       }
+
+       .photo{
+           margin:-35px;
+       }
+
+       .photo .row .col-2 img{
+           flex-basis: 100%;
+           width: 100%;
+       }
+
+       .photo .row .col-2 h1{
+           font-size: 36px;
+       } 
+
+       #h3 {
+    /* font-size: 21px;
+    margin: 9px 79px;*/
+                overflow: hidden;
+
+    
  }
+       #h3p {
+        /* font-size: 18px;
+    margin: 2px 39px; */
+                overflow: hidden;
+
+       }
 
 
+ .card-info .p-name small{
+display: none; }
 
 
-
-
+    }
 
